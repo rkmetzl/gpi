@@ -56,7 +56,8 @@ $(document).ready(function(){
     };
 
     // Activate bootstrap switch
-    $('[data-toggle="switch"]').bootstrapSwitch();
+    // Commented out by me, ryan.
+    // $('[data-toggle="switch"]').bootstrapSwitch();
 
     // Navbar color change on scroll
     if($('.navbar[color-on-scroll]').length != 0){
